@@ -1,0 +1,21 @@
+@import '../../../node_modules/animate.css/animate.min.css';
+
+.card-container{
+  animation: wobble; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.card-item{
+    color: #fff;
+    font-size: 150%;
+    height: 150px;
+    width: 130px;
+    margin: 5px;
+  }
+  
+  .card-image{
+    height: 150px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }

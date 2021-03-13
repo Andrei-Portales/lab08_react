@@ -1,0 +1,31 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+.game-view {
+  height: 100%;
+  width: calc(100% - 300px);
+  padding: 7px;
+}
+
+.game-content {
+  background-color: white;
+  border-radius: 15px;
+  
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+
+
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+
+  align-items: center;
+
+ /* &::-webkit-scrollbar {
+    width: 10px;
+  }*/
+}
+
+
