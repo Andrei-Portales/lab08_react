@@ -2,8 +2,9 @@ import React from "react";
 import ReactCardFlip from "react-card-flip";
 import "./card-item.scss";
 import cartaImg from "../../assets/images/carta.jpg";
+import PropTypes from "prop-types";
 
-const CardItem = (props) => {
+const cardItem = (props) => {
   const item = props.item;
 
   return (
@@ -29,4 +30,8 @@ const CardItem = (props) => {
   );
 };
 
-export default CardItem;
+export default cardItem;
+
+cardItem.proptypes = {
+  item: PropTypes.object,
+};
