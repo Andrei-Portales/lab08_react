@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import Navbar from "../components/nav-bar/nav-bar";
-import GameView from "../containers/game-view/game-view";
-import StatusPanel from "../components/status-panel/status-panel";
-import "./app.scss";
-import items from "./game-view/game-items";
-import { startConfetti, stopConfetti } from "../animation/confetti";
+import React, { Component } from 'react';
+import Navbar from '../components/nav-bar/nav-bar';
+import GameView from '../containers/game-view/game-view';
+import StatusPanel from '../components/status-panel/status-panel';
+import './app.scss';
+import items from './game-view/game-items';
+import { startConfetti, stopConfetti } from '../animation/confetti';
 import aplausos from '../assets/audio/aplausos.mp3';
 
 class App extends Component {
@@ -49,7 +49,6 @@ class App extends Component {
   }
 
   flipCard(index) {
-    
     if (this.canFlipCarts) {
       this.canFlipCarts = false;
       for (let i = 0; i < this.state.items.length; i++) {

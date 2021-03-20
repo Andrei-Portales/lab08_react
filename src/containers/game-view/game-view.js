@@ -1,7 +1,7 @@
-import React from "react";
-import "./game-view.scss";
-import CardItem from "../../components/card-item/card-item";
-import PropTypes from "prop-types";
+import React from 'react';
+import './game-view.scss';
+import CardItem from '../../components/card-item/card-item';
+import PropTypes from 'prop-types';
 
 const gameView = (props) => {
   return (

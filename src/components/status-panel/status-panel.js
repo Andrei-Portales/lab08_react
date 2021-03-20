@@ -1,5 +1,5 @@
-import React from "react";
-import "./status-panel.scss";
+import React from 'react';
+import './status-panel.scss';
 
 const statusPanel = (props) => {
   return (

@@ -1,6 +1,10 @@
 {
-    "extends": "react-app",
-    "rules": {
-        "no-console":"warn"
-    }
+  "extends": ["react", "airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "func-names":"error"
+  }
 }
